@@ -1,0 +1,391 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+/* NAV BAR  */
+
+.navbar{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+
+}
+.logo{
+
+    padding-left: 48px;
+    font-style: italic;
+}
+.para{
+    display: flex;
+  
+}
+#onep{
+    margin-right: 2px;
+    font-size: 0.9rem;
+}
+#twop{
+    color: rgb(243, 167, 3);
+    font-size: 0.9rem;
+
+}
+.logo img{
+    height: 20px;
+    width: 80px;
+    padding-left: 20px;
+    
+}
+.searchbar{
+    height: 40px;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-top: 1px;
+    background-color: rgb(205, 234, 244);
+    align-items: center;
+    border-radius: 8px;
+   
+}
+.fa-solid{
+    margin-left: 10px;
+    background-color: rgb(205, 234, 244);
+    margin-right: 10px;
+    
+}
+.search{
+    width: 650px;
+    font-size: 1.1rem;
+    height: 39px;
+    margin-left: 25px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(205, 234, 244);
+    border: rgb(205, 234, 244);
+}
+
+.options{
+    display: flex;
+}
+.sell{
+    display: flex;
+    margin-left: 50px;
+}
+.sell p{
+    font-size: 1.1rem;
+    margin-left: 10px;
+
+}
+.sign{
+    display: flex;
+    font-size: 1.1rem;
+    margin-left: 50px;
+
+}
+.hide{
+    display: none;
+}
+.sign:hover .hide{
+    display: block;
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    position: absolute;
+}
+.cart{
+    display: flex;
+    font-size: 1.1rem;
+    margin-left: 50px;
+
+}
+#option{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* after nav bar */
+.boxes{
+    height: 150px;
+    margin: 7px 14px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.boxes img{
+    /* height: 60px; */
+}
+.box1{
+    height: 126px;
+    width: 126px;
+    padding: 16px 16px 16px 22px;
+}
+.box1 span{
+    padding-left:12px ;
+    font-weight: bolder;
+}
+.box2{
+    height: 126px;
+    width: 165px;
+    padding-top: 10px;
+    
+}
+.box2 pre{
+    padding-left:12px ;
+    padding-top: 6px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.box2 img{
+    padding-left: 40px;
+    
+ 
+}
+.box2 .wheeler{
+    padding-left: 33px;
+}
+/* news section */
+.news{
+    margin: 7px 14px;
+    margin-right: 14px;
+    overflow: hidden;
+}
+
+/* ?Electronics */
+.electronics{
+    height: 80px;
+    width: 1239px;
+    padding: 19px;
+    background-color: white;
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.electronics span{
+    scale: 1.7;
+    padding: 10px 5px 10px;
+}
+#plan{
+    display: flex;
+    
+}
+.twothree img{
+    height: 364px;
+    width: 237px;
+    margin-left: 14.5px;
+}
+.attachments{
+    display: flex;
+}
+.shopping{
+    display: flex;
+}
+.elecitem{
+    height: 262px;
+    width: 195px;
+    padding-top: 16px;
+    margin-left: 14px;
+    text-align: center;
+}
+.elecitem img{
+    height: 176px;
+    width: 176px;
+}
+
+
+.elecitem img:hover{
+    height: 178px;
+    width: 178px;
+}
+.elecitem #shop{
+    color: #212121;
+}
+.elecitem #now{
+    color: #212121;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.newsection{
+    display: flex;
+}
+/* new third section */
+.electronicstwo{
+    height: 80px;
+    width: 1492px;
+    padding: 19px;
+    background-color: white;
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+}      
+.electronicstwo span{
+    scale: 1.7;
+    padding: 10px 5px 10px;
+} 
+ /* beauty ,food,toys and more  */
+.all-toys{
+    display: flex;
+    text-align: end;
+}
+ .toy{
+  height: 252px;
+  width: 200px; 
+  margin-left: 14px;
+  text-align: center;
+ }
+ .toy .tag{
+    padding: 20px;
+ }
+
+ .toy img{
+    height: 166ppx;
+    width: 176px;
+    padding-left: 8px;
+    padding-top: 15px;
+ }
+ .toy img:hover{
+    height: 170ppx;
+    width: 180px;
+    padding-left: 8px;
+    padding-top: 15px;
+ }
+ .toy #coffe img{
+    height: 170px;
+    width: 100px;
+ }
+ .toy #coffe img:hover{
+    height: 175px;
+    width: 105px;
+ }
+ .toy #cycle img{
+    height: 165px;
+    width: 180px;
+ }
+ .toy #cycle img:hover{
+    height: 175px;
+    width: 185px;
+ }
+ .toy #soft img{
+    height: 180px;
+    width: 180px;
+ }
+ .toy #soft img:hover{
+    height: 185px;
+    width: 185px;
+ }
+ .all-toys #now{
+    font-weight: bolder;
+ }
+ /* END */
+ .end{
+    display: flex;
+    justify-content: space-evenly;
+ }
+.gifting{
+    height: 630px;
+    width: 490px;
+    margin-left: 14px;
+    margin-top: 28px;
+}
+.moment{
+    width: 979px;
+    height: 654px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: lightcoral;
+}
+.moment img{
+    width: 979px;
+    height: 654px;
+}
+.combine{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 22px;
+}
+.gifting .tag{
+    height: 80px;
+    width: 490px;
+}
+.gifting .tag{
+    height: 80px;
+    width: 490px;
+    padding: 19px;
+    display: flex;
+    justify-content: space-between;
+}      
+.gifting .tag span{
+    scale: 1.7;
+    padding: 10px 5px 10px;
+} 
+.gift1{
+    
+    height: 275px;
+    width: 223px;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
+.gift1 img{
+    height: 199px;
+    width: 199px;
+    
+}
+.gift1 img:hover{
+    height: 204px;
+    width: 205px;
+    
+}
+.gift1 #giftbold{
+    font-weight:bolder;
+    color: #108934;
+
+}
+/* FOOTER */
+.div{
+    height: 320px;
+    width: 1536px;
+    background-color: rgb(25, 12, 67);
+    padding: 40px 60px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div a{
+    color: #ffffff;
+}
+.div ul span{
+    color: #878787;
+    line-height: 50px;
+}
+.ffooter{
+    height: 68px;
+    width: 1536px;
+    background-color: rgb(25, 12, 67);
+    margin-top:1px ;
+    /* display: flex; */
+}
+.ffooter img{
+    height: 20px;
+}
+.fff{
+    /* display: flex; */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 23px;
+}
